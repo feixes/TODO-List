@@ -31,7 +31,7 @@ export class TodoList {
 
     eliminarCompletados() {
         // devolver todos los que no estan completados
-        this.todos = this.todos.filter(todo => !todo.completed)
+        this.todos = this.todos.filter(todo => !todo.completado)
         this.guardarLocalStorage();
     }
 
